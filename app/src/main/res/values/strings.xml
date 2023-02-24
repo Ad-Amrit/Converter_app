@@ -12,4 +12,6 @@
     <string name="results">Result</string>
     <string name="square_yard_to_square_feet">Square yard To Square Feet</string>
     <string name="enter_square_yard">Enter Square Yard</string>
+    <string name="dollar_to_npr">Dollar To NPR</string>
+    <string name="enter_dollar">Enter Dollar</string>
 </resources>
