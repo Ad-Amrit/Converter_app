@@ -14,4 +14,8 @@
     <string name="enter_square_yard">Enter Square Yard</string>
     <string name="dollar_to_npr">Dollar To NPR</string>
     <string name="enter_dollar">Enter Dollar</string>
+    <string name="temperature">Temperature</string>
+    <string name="converter_app">Converter App</string>
+    <string name="area">Area</string>
+    <string name="currency">Currency</string>
 </resources>
