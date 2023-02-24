@@ -18,4 +18,5 @@
     <string name="converter_app">Converter App</string>
     <string name="area">Area</string>
     <string name="currency">Currency</string>
+    <string name="kelvin_to_celsius" />
 </resources>

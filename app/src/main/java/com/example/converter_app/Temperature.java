@@ -24,10 +24,10 @@ public class Temperature extends AppCompatActivity {
             public void onClick(View view) {
                 String a = Temp_text.getText().toString();
                 double b = Double.parseDouble(a);
-                double res = b+273.15;
+                double res = b-273.15;
                 String Final_result = Double.valueOf(res).toString();
                 TextView Temp_result = findViewById(R.id.Temp_result);
-                Temp_result.setText("CELSIUS TO KELVIN IS : "+Final_result);
+                Temp_result.setText("KELVIN TO CELSIUS IS : "+Final_result);
             }
         });
 
