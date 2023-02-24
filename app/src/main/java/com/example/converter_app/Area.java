@@ -17,7 +17,7 @@ public class Area extends AppCompatActivity {
         setContentView(R.layout.activity_area);
 
         EditText area_text = findViewById(R.id.area_text);
-        @SuppressLint({"WrongViewCast", "CutPasteId"}) Button area_btn = findViewById(R.id.area_text);
+        Button area_btn = findViewById(R.id.area_btn);
         area_btn.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("SetTextI18n")
             @Override
@@ -26,8 +26,8 @@ public class Area extends AppCompatActivity {
                 double b = Double.parseDouble(a);
                 double res = b*9;
                 String Final_result = Double.valueOf(res).toString();
-                TextView area_result = findViewById(R.id.area_result);
-                area_result.setText("Square Yard to Square Feet : "+Final_result);
+                TextView area_result = findViewById(R.id.curr_result);
+                area_result.setText("Square yard to square foot : "+Final_result);
             }
         });
     }

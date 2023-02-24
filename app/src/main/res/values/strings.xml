@@ -19,4 +19,5 @@
     <string name="area">Area</string>
     <string name="currency">Currency</string>
     <string name="kelvin_to_celsius" />
+    <string name="square_yard_to_square_foot">Square Yard to Square Foot</string>
 </resources>
