@@ -26,7 +26,7 @@ public class Area extends AppCompatActivity {
                 double b = Double.parseDouble(a);
                 double res = b*9;
                 String Final_result = Double.valueOf(res).toString();
-                TextView area_result = findViewById(R.id.curr_result);
+                TextView area_result = findViewById(R.id.area_result);
                 area_result.setText("Square yard to square foot : "+Final_result);
             }
         });
